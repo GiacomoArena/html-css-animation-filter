@@ -97,6 +97,7 @@
 
 .ex11:hover{
   animation: giretto 5s infinite;
+  animation-timing-function:ease
 }
 @keyframes giretto{
   0%{
@@ -109,3 +110,46 @@
 }
 
 
+
+.ex-12-button:hover .ex-12-top-white{
+  animation:top 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes top{
+  0%{
+    left: 65%;
+  } 25% {
+    left: 35%;
+  } 
+  } 50% {
+    left: 8%;
+  } 
+  } 75% {
+    left: 35%;
+  } 
+  } 100% {
+    left: 65%;
+  } 
+
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation:bottom 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes bottom{
+  0%{
+    right: 2%;
+  } 25% {
+    right: 67%;
+  } 
+  } 50% {
+    right: 40%;
+  } 
+  } 75% {
+    right: 67%;
+  } 
+  } 50% {
+    right: 2%;
+  } 
