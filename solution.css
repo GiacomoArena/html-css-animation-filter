@@ -75,4 +75,26 @@
 }
 
 
+.ex-9-img{
+  transition: all 3s;
+}
+
+.ex-9-img:hover{
+  filter: grayscale(.4) opacity(0.6);
+  border-radius: 10px;
+  width: 600px;
+  margin: 25px 50px;
+}
+
+.ex10{
+  animation: giro 3s infinite;
+}
+
+@keyframes giro {
+  0% {transform: rotate(3turn);}
+}
+
+
+
+
 
