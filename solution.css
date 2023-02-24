@@ -31,3 +31,27 @@
 .ex-4-square:hover{
   opacity: 0;
 }
+
+
+
+.ex-5-square{
+  transition: 2s;
+}
+
+.ex-5-square:hover{
+  width: 120px;
+  height: 120px;
+}
+.ex-5-square:active{
+  width: 30px;
+  height: 30px;
+}
+
+.ex-6-square{
+  
+}
+
+.ex-6-square:hover{
+ 
+}
+
