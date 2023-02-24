@@ -47,11 +47,11 @@
   height: 30px;
 }
 
-.ex-6-square{
-  
+.ex-6-img{
+  transition: 2s;
 }
 
-.ex-6-square:hover{
- 
+.ex-6-img:hover{
+  filter: grayscale(100%);
 }
 
