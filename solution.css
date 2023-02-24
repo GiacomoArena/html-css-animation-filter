@@ -95,6 +95,17 @@
 }
 
 
-
+.ex11:hover{
+  animation: giretto 5s infinite;
+}
+@keyframes giretto{
+  0%{
+    transform: rotate(0deg);
+  } 25% {
+    transform: rotate(335deg);
+  } 50% {
+    transform: rotate(0deg);
+  }
+}
 
 
