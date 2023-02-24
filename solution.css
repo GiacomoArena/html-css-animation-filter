@@ -65,4 +65,14 @@
 }
 
 
+.ex-8-img{
+  transition: all 3s;
+}
+
+.ex-8-img:hover{
+  filter: grayscale(.2) opacity(0.6);
+  border-radius: 10px;
+}
+
+
 
